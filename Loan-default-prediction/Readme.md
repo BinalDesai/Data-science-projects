@@ -8,7 +8,8 @@ This project focuses on predicting whether a loan applicant is likely to default
 ## 📊 Exploratory Data Analysis
 
 ### 📌 Loan Status Distribution
-<img src="Images/Churn_distribution.jpg" width="500"/>
+<img src="Loan-default-prediction/Images/Churn_distribution.jpg" width="500"/>
+<img src="blinkit_dashboard_overview.png" width="1500"/>
 
 - Shows distribution of approved vs default loans  
 - Helps identify class imbalance  

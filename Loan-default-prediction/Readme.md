@@ -1,58 +1,82 @@
 # 💳 Credit Risk Analysis & Loan Default Prediction
 
-## 📌 Project Overview
-This project focuses on predicting whether a loan applicant is likely to default using machine learning techniques to support credit risk assessment.
+## 🎯 Problem Statement
+Financial institutions face risks when approving loans.  
+This project predicts whether a customer will default on a loan using historical data and machine learning techniques to support better decision-making.
 
 ---
+
 ## 📊 Exploratory Data Analysis
 
 ### 📌 Loan Status Distribution
-<img src="Loan-default-prediction/Images" width="500"/>
-
-- Shows distribution of approved vs default loans  
-- Helps identify class imbalance  
-
----
+<img src="Images/churn_distribution.jpg" width="500"/>
 
 ### 📌 Credit Score vs Loan Status
-<img src="images/credit_score_vs_status.png" width="500"/>
-
-- Applicants with lower credit scores have higher default risk  
-
----
+<img src="Images/credit_score_vs_loan.jpg" width="500"/>
 
 ### 📌 Loan Amount Distribution
-<img src="images/loan_amount_dist.png" width="500"/>
-
-- Most loans fall within lower to mid ranges  
+<img src="Images/loan_amount_distribution.jpg" width="500"/>
 
 ---
 
-## 🤖 Model Performance
+## 🤖 Models Used
+
+- Logistic Regression  
+- Decision Tree  
+- Random Forest  
+
+---
+
+## 🏆 Best Performing Model
+
+👉 **[REPLACE THIS AFTER CHECKING NOTEBOOK]**
+
+Example (write like this after checking results):
+
+**Random Forest performed the best**, achieving higher accuracy and better classification of defaulters compared to Logistic Regression and Decision Tree.
+
+---
+
+## 📊 Model Performance
 
 ### 📌 Confusion Matrix
-<img src="images/confusion_matrix.png" width="500"/>
+<img src="Images/confusion_matrix.png" width="500"/>
 
-- Evaluates model predictions  
-- Shows accuracy in identifying defaulters  
+- Evaluates prediction performance  
+- Helps identify correct vs incorrect classifications  
 
 ---
 
 ## 🛠️ Tools & Technologies
 - Python (Pandas, NumPy)  
 - Matplotlib, Seaborn  
-- Machine Learning  
+- Scikit-learn  
 
 ---
 
 ## 💼 Business Impact
 - Identifies high-risk loan applicants  
 - Supports better lending decisions  
-- Reduces financial risk  
+- Reduces financial risk and defaults  
 
 ---
 
-## 🚀 Future Improvements
-- Advanced models (Random Forest, XGBoost)  
-- Hyperparameter tuning  
-- Model deployment  
+## ⚙️ How to Run
+
+1. Clone the repository  
+2. Install required libraries:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
+   ```
+3. Open and run the notebook  
+
+---
+
+## 💡 Key Learnings
+- Applied machine learning for classification problems  
+- Compared multiple models for performance  
+- Understood importance of feature impact on loan default  
+
+---
+
+⭐ This project demonstrates end-to-end data analysis and machine learning for real-world credit risk problems.

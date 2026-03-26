@@ -4,7 +4,7 @@
 This project focuses on predicting whether a loan applicant is likely to default using machine learning techniques to support credit risk assessment.
 
 ---
-
+<img src="Images/confusion_matrix.png" width="500"/>
 ## 📊 Exploratory Data Analysis
 
 ### 📌 Loan Status Distribution

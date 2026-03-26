@@ -20,8 +20,7 @@ Financial institutions face risks when approving loans. This project predicts wh
 
 ## 🤖 Models Used
 
-- Logistic Regression  
-- Decision Tree  
+- Logistic Regression    
 - Random Forest  
 - Gradient Boosting  
 

@@ -1,8 +1,7 @@
 # 💳 Credit Risk Analysis & Loan Default Prediction
 
 ## 🎯 Problem Statement
-Financial institutions face risks when approving loans.  
-This project predicts whether a customer will default on a loan using historical data and machine learning techniques to support better decision-making.
+Financial institutions face risks when approving loans. This project predicts whether a customer will default on a loan using historical data and machine learning techniques to support better decision-making.
 
 ---
 
@@ -24,16 +23,13 @@ This project predicts whether a customer will default on a loan using historical
 - Logistic Regression  
 - Decision Tree  
 - Random Forest  
+- Gradient Boosting  
 
 ---
 
-## 🏆 Best Performing Model
+## 🏆 Best Performing Model: Gradient Boosting
 
-👉 **[REPLACE THIS AFTER CHECKING NOTEBOOK]**
-
-Example (write like this after checking results):
-
-**Random Forest performed the best**, achieving higher accuracy and better classification of defaulters compared to Logistic Regression and Decision Tree.
+Gradient Boosting achieved the best performance in predicting loan defaults. It outperformed other models by capturing complex patterns in the data and providing better accuracy and classification of high-risk applicants.
 
 ---
 
@@ -42,8 +38,9 @@ Example (write like this after checking results):
 ### 📌 Confusion Matrix
 <img src="Images/confusion_matrix.png" width="500"/>
 
-- Evaluates prediction performance  
-- Helps identify correct vs incorrect classifications  
+- Effectively identifies defaulters  
+- Provides better balance between precision and recall  
+- Reduces risk of misclassifying high-risk applicants  
 
 ---
 
@@ -57,7 +54,8 @@ Example (write like this after checking results):
 ## 💼 Business Impact
 - Identifies high-risk loan applicants  
 - Supports better lending decisions  
-- Reduces financial risk and defaults  
+- Reduces financial risk and loan defaults  
+- Enables data-driven credit risk management  
 
 ---
 
@@ -73,9 +71,10 @@ Example (write like this after checking results):
 ---
 
 ## 💡 Key Learnings
-- Applied machine learning for classification problems  
-- Compared multiple models for performance  
-- Understood importance of feature impact on loan default  
+- Compared multiple machine learning models  
+- Understood importance of model selection in classification problems  
+- Learned how boosting techniques improve prediction performance  
+- Applied data analysis and ML to a real-world business problem  
 
 ---
 
